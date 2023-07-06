@@ -1,0 +1,161 @@
+table.text  {
+    font-size: 18px;
+    margin: auto;
+    text-align: center;
+    width:  940px; /* Ширина таблицы */
+    border-spacing: 0; /* Расстояние между ячейками */
+    text-decoration: none;}
+.btn {
+    display: inline-block; /* Строчно-блочный элемент */
+    background: white; /* Серый цвет фона */
+    color: #828282; /* Белый цвет текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 3px;}
+*{box-sizing:border-box;
+    margin:0}
+html{font-size:10px}
+body{background-color:#fff;
+    font-family:"Gilroy", sans-serif;
+    color:#070707;
+    font-size:1.8rem;
+    font-weight:400;
+    max-width:1440px}
+ul{list-style:none}
+h1,h2,h3{font-weight:bold}
+h1{font-size:4.7rem}
+h2{font-size:3.4rem}
+button{border:none}
+button:hover{border:none;outline:none}
+button:active{border:none;outline:none}
+.navitem,.nav-item{font-size:1.8rem;
+    font-family:"Gilroy", sans-serif;
+    font-weight:700;
+    color:#828282;
+    text-decoration: none}
+.navitem:hover,.nav-item:hover{color:#070707}
+.headers{display:flex;
+    justify-content:center}
+.container{max-width:1000px}
+.navbar-toggler{border:none;
+    outline:none}
+p{font-weight:400}
+.my_profile__text{border-top:1px solid #828282;
+    display:flex;
+    margin:auto;
+    flex-direction:row;
+    justify-content:space-between;
+    max-width:940px}
+.my_profile__photo{margin-top:50px;
+    display:flex;
+    justify-content:center}
+.spase{margin-top:40px;
+        width:100px}
+.spases{margin-top:94px;
+    width:200px}
+.trans{margin-top:69px;
+    margin-right:-50px;
+    transform:rotate(-90deg)}
+.ru,.eng{border:none;
+    text-decoration:none;
+    outline:none;
+    color:#828282}
+.ru:hover,.eng:hover{cursor:pointer;
+    color:#070707;
+    text-decoration:none}
+.actived{color:#070707}
+.aboutMe{width:100%;
+    margin-top:100px;
+    padding-top:120px;
+    justify-content:center;
+    height:506px;
+    background-color:#f6f6f6;
+    text-align:center}
+.skills{height:610px;
+    text-align:center;
+    padding-top:91px}
+.skills figcaption,.skills .figcaption{font-size:1.4rem;
+    font-weight:700;
+    line-height:1.7rem}
+.skills .marb{margin-bottom:35px}
+.skills .andMarb{margin-bottom:53px}
+figcaption,.figcaption{font-size:1.4rem;
+    color:#828282;
+    line-height:1.8rem}
+.icon{margin:4px}
+.flex-icons{margin:auto;
+    max-width:885px;
+    margin-top:84px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around}
+.portfolio{padding-top:113px;
+    background-color:#f6f6f6;
+    height:225.3rem;
+    text-align:center}
+.portfolio figcaption,.portfolio .figcaption{margin-top:44px;
+    margin-bottom:100px}
+.portfolio figcaption a,.portfolio .figcaption a{font-size:1.8rem;
+    line-height:2.2rem;
+    color:#070707;
+    text-decoration:underline}
+.portfolio h2{margin-bottom:47px}
+.contacts{height:630px;
+    padding-top:114.24px;
+    text-align:center}
+.contacts h2{margin-bottom:20px}
+.contacts p{color:#828282;
+    font-size:1.4rem;
+    line-height:1.7rem;
+    font-weight:400}
+.contacts_button{margin-top:30px;
+    margin-bottom:85px;
+    font-weight:900;
+    outline:none;
+    text-align:center;
+    color:#fff;
+    background-color:#000;border:none;
+    width:180.5px;
+    height:42px;
+    border-radius:25px}
+.flex-icon{margin:auto;
+    width:343px;
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:46px}
+.flex-icon a{color:#000}
+.containermini{display:none;}
+.fullmenu{width: 100%;
+    height: 100vh;}
+.hiddens{position:absolute;
+    opacity:0}
+.hidens{display:none}
+.btns{display: inline-block;
+    background-color:transparent;
+    position:absolute;
+    top:45px;
+    right:40px}
+.hidnav{display:none;
+    margin-top:40px;
+    font-size:3.4rem;
+    height:500px}
+.hidnav a{font-size:3.4rem;
+    line-height:42px}
+.hidnav__text{display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    margin-left:20px}
+.hidnav__text a{width:154px;
+    margin-bottom:30px}
+.hidnav__text a:hover,.hidnav__text a:active{opacity:none;
+    text-decoration:none}
+.transnav{display:none;
+    transform:rotate(90deg);
+    font-size:2.8rem;
+    width:150px;
+    position:absolute;
+    right:0px;
+    bottom:50px;}
+.transnav p{font-size:3.4rem}
+.fa-bars,.fa-times{color:#000}
+.stops{overflow:hidden}
+.forstops{margin-bottom:200px} 
